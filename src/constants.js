@@ -1,10 +1,10 @@
 export const CAPACIDAD_MAX = 12
 
 export const RESTAURANTES = [
-    { id: "italiano", nombre: "La Trattoria", tipo: "Cocina Italiana", icono: "🍝" },
-    { id: "asiatico", nombre: "Sakura", tipo: "Cocina Asiática", icono: "🍱" },
-    { id: "mexicano", nombre: "El Sombrero", tipo: "Cocina Mexicana", icono: "🌮" },
-    { id: "steakhouse", nombre: "Prime Cuts", tipo: "Steakhouse", icono: "🥩" }
+    { id: "carnes", nombre: "Ember", tipo: "Carnes", icono: "🥩" },
+    { id: "jampones", nombre: "Zao", tipo: "Japones", icono: "🍱" },
+    { id: "italiano", nombre: "Grappa", tipo: "Italiana", icono: "🍝" },
+    { id: "mariscos", nombre: "Larimar", tipo: "Marisco", icono: "🦞" },
 ]
 
 export const HORARIOS = [

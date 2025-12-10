@@ -24,6 +24,7 @@ export default function Menu({ onSeleccionar }) {
           onClick={() => onSeleccionar("ver")}
           className="group bg-slate-800 border border-slate-700 rounded-xl p-8 text-left hover:border-amber-500 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10"
         >
+          
           <div className="w-14 h-14 bg-amber-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition-colors">
             <svg className="w-7 h-7 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -34,6 +35,7 @@ export default function Menu({ onSeleccionar }) {
               />
             </svg>
           </div>
+
           <h3 className="font-serif text-xl text-slate-100 mb-2">Ver Reservaciones</h3>
           <p className="text-slate-400 text-sm">Consultar disponibilidad y reservaciones existentes</p>
         </button>
